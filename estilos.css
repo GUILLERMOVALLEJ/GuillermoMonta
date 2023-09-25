@@ -1,0 +1,89 @@
+#product-form {
+    margin-bottom: 20px;
+}
+
+#product-form input[type="text"],
+#product-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#product-form button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#product-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#product-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+.producto .editar {
+    background-color: #007bff; 
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
+.producto button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.producto button.editar {
+    background-color: #ffc107;
+}
+
+.producto button:hover {
+    background-color: #c82333;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#action-link {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#action-link button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#action-link button:hover {
+    background-color: #218838;
+}
